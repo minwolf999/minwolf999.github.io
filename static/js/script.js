@@ -41,11 +41,19 @@ function createElement(text, responses) {
 
         div.innerHTML = comm_responses > rh_responses? `Au vus de vos réponses vous semblez être orienté vers un profil commercial. Vous
             excellez dans les stratégies de placement, la négociation avec les entreprises
-            clientes et l'analyse de marché.` 
+            clientes et l'analyse de marché.
+            <br>
+            Score RH: ${rh_responses}
+            <br>
+            Score Commercial: ${comm_responses}` 
             : 
             `Au vus de vos réponses vous avez une inclinaison pour un profil RH. Vous êtes
             doué pour la gestion des talents intérimaires, la médiation des conflits et le
-            développement des compétences`
+            développement des compétences
+            <br>
+            Score RH: ${rh_responses}
+            <br>
+            Score Commercial: ${comm_responses}`
     }
 
     document.body.appendChild(div)
