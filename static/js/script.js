@@ -39,21 +39,30 @@ function createElement(text, responses) {
     } else {
         div.className = "RH_Question"
 
-        div.innerHTML = comm_responses > rh_responses? `Au vus de vos réponses vous semblez être orienté vers un profil commercial. Vous
-            excellez dans les stratégies de placement, la négociation avec les entreprises
-            clientes et l'analyse de marché.
-            <br><br>
-            Score RH: ${rh_responses}
-            <br>
-            Score Commercial: ${comm_responses}` 
-            : 
-            `Au vus de vos réponses vous avez une inclinaison pour un profil RH. Vous êtes
-            doué pour la gestion des talents intérimaires, la médiation des conflits et le
-            développement des compétences
-            <br><br>
-            Score RH: ${rh_responses}
-            <br>
-            Score Commercial: ${comm_responses}`
+        if (comm_responses > rh_responses) {
+            div.innerHTML = `Au vus de vos réponses vous semblez être orienté vers un profil commercial. Vous
+                excellez dans les stratégies de placement, la négociation avec les entreprises
+                clientes et l'analyse de marché.
+                <br><br>
+                Score RH: ${rh_responses}
+                <br>
+                Score Commercial: ${comm_responses}`
+        } else if (rh_responses > comm_responses) {
+            div.innerHTML = `Au vus de vos réponses vous avez une inclinaison pour un profil RH. Vous êtes
+                doué pour la gestion des talents intérimaires, la médiation des conflits et le
+                développement des compétences
+                <br><br>
+                Score RH: ${rh_responses}
+                <br>
+                Score Commercial: ${comm_responses}`
+        } else {
+            div.innerHTML = `Au vus de vos réponses vous avez un profil mixe. Vous êtes aussi doué en stratégie 
+                de placement ainsi qu'en gestion de talent. 
+                <br><br>
+                Score RH: ${rh_responses}
+                <br>
+                Score Commercial: ${comm_responses}`
+        }
     }
 
     document.body.appendChild(div)
