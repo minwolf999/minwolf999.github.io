@@ -74,16 +74,24 @@
     [
         "Un conflit éclate entre deux intérimaires en mission chez un client important. Quelle approche adoptez-vous pour résoudre ce conflit ?",
         [
-            [ "Je vais mener une médiation pour comprendre les perspectives des deux parties et trouver une solution qui satisfait tout le monde."],
-            [ "Je vais organiser une réunion pour clarifier les objectifs communs et aligner les efforts des intérimaires sur les attentes du client."]
+            [ "Je vais mener une médiation pour comprendre les perspectives des deux parties et trouver une solution qui satisfait tout le monde.", 11],
+            [ "Je vais organiser une réunion pour clarifier les objectifs communs et aligner les efforts des intérimaires sur les attentes du client.", 11]
         ]
     ],
 
     [
         "Un conflit éclate entre deux intérimaires en mission chez un client important. Quelle approche adoptez-vous pour résoudre ce conflit ?",
         [
-            ["Je vais organiser une réunion pour clarifier les objectifs communs et aligner les efforts des intérimaires sur les attentes du client."],
-            ["Je vais mener une médiation pour comprendre les perspectives des deux parties et trouver une solution qui satisfait tout le monde."] 
+            ["Je vais organiser une réunion pour clarifier les objectifs communs et aligner les efforts des intérimaires sur les attentes du client.", 11],
+            ["Je vais mener une médiation pour comprendre les perspectives des deux parties et trouver une solution qui satisfait tout le monde.", 11] 
+        ]
+    ],
+
+    [
+        "end",
+        [
+            ["end"],
+            ["end"]
         ]
     ]
 ]
