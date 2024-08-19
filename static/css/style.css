@@ -1,0 +1,197 @@
+html {
+    background: whitesmoke;
+    scrollbar-width: none;
+}
+
+.body {
+    background: hsl(33, 100%, 95%);
+
+    margin: 10vh 10vw 0 10vw;
+
+    height: 80vh;
+    max-height: 80vh;
+    width: 80vw;
+
+    overflow: auto;
+    padding-bottom: 1%;
+
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px darkgray;
+    border-radius: 20px;
+
+    position: relative;
+
+    text-align: center;
+}
+
+.about-me {
+    width: fit-content;
+
+    float: left;
+    padding: 3%;
+
+    line-height: 4vh;
+}
+
+a {
+    font: bold 1rem sans-serif;
+    text-transform: uppercase;
+
+    color: grey;
+    text-decoration: none;
+    padding: 0 .5em .25em;
+
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    inset: calc(100% - 3px) 0 0 0;
+    background: #ce4f20;
+    scale: 0 1;
+    transition: .3s, translate 0s .3s;
+}
+
+a:hover:before {
+    scale: 1;
+}
+
+a:hover:has(~ a:hover):before {
+    translate: 100% 0;
+    transition: .2s .2s,scale 0s .4s;
+}
+
+.contact {
+    width: fit-content;
+
+    float: right;
+    padding: 2%;
+
+    line-height: 5vh;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    border-top: 3px double #727272;
+    color: #727272;
+}
+
+.marquee {
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-x: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 60s linear infinite;
+
+    height: 100%;
+    
+    position: relative;
+    width: fit-content;
+}
+
+.marquee-content-slot {
+    white-space: normal;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+    width: 40vw;
+    position: relative;
+
+    max-height: 20%;
+    overflow-y: hidden;
+
+    margin: 0 30px;
+    padding: 0 20px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+
+    cursor: help;
+}
+
+.marquee-content-slot-langage {
+    position: absolute;
+    right: 5%;
+}
+
+.popupBackground {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupBody {
+    background: white;
+    
+    width: 65%;
+    max-height: 90%;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    margin: 2px;
+    padding: 1%;
+    
+    overflow-y: auto;
+
+    position: relative;
+
+    text-align: center;
+}
+
+.closeBtn {
+    position: fixed;
+    
+    border: none;
+    border-radius: 50%;
+
+    left: 19%;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+.langage {
+    float: right;
+}
+
+.githubLink {
+    width: 50px;
+
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+
+    margin: 2% 0;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.DivImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
