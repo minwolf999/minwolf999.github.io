@@ -183,7 +183,7 @@
         "title": "school-records",
         "description": "This project aims to help nursery school teachers to prepare their school records digitally.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "PHP",
+        "langage": "golang",
         "github": "https://github.com/minwolf999/school-records.git",
         "images": [
             "./static/image/personnal/school-records/accueil.png", "./static/image/personnal/school-records/logged.png", "./static/image/personnal/school-records/saisir.png",
