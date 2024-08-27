@@ -9,6 +9,8 @@ const Div = [
 ]
 
 const datas = await fetch("./json/data.json").then(data => data.json());
+
+datas.reverse();
 datas.forEach(data => {
     CreateElementInMarquee(
         Div[data.type],
