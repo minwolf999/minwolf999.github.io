@@ -1,16 +1,6 @@
 [
     {
         "type": 0,
-        "title": "ascii-art",
-        "description": "Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII. Time to write big.",
-        "collaborators": ["Antoine MARVIN", "Mathias MARCHETTI", "Cyril RAMANANJAONA", "Philippe LECROSNIER"],
-        "langage": "golang",
-        "github": "https://github.com/minwolf999/ascii-art.git",
-        "images": ["./static/image/school/ascii-art/using.png", "./static/image/school/ascii-art/help.png"]
-    },
-
-    {
-        "type": 0,
         "title": "tetris-optimizer",
         "description": "Develop a program that receives only one argument, a path to a text file which will contain a list of tetrominoes and assemble them in order to create the smallest square possible.",
         "collaborators": ["Antoine MARVIN"],
@@ -160,26 +150,6 @@
 
     {
         "type": 1,
-        "title": "7+8",
-        "description": "This project aims to learn addition in an educational and fun way.",
-        "collaborators": ["Antoine MARVIN"],
-        "langage": "javascript",
-        "github": "https://github.com/minwolf999/7-8.git",
-        "images": ["./static/image/personnal/7+8/accueil.png", "./static/image/personnal/7+8/calcul.png"]
-    },
-
-    {
-        "type": 1,
-        "title": "found-number",
-        "description": "This project aims to learn reflection in an educational and fun way.",
-        "collaborators": ["Antoine MARVIN"],
-        "langage": "javascript",
-        "github": "https://github.com/minwolf999/found-number.git",
-        "images": ["./static/image/personnal/found-number/accueil.png", "./static/image/personnal/found-number/found.png"]
-    },
-
-    {
-        "type": 1,
         "title": "school-records",
         "description": "This project aims to help nursery school teachers to prepare their school records digitally.",
         "collaborators": ["Antoine MARVIN"],
@@ -190,26 +160,6 @@
             "./static/image/personnal/school-records/competences.png", "./static/image/personnal/school-records/ajoutCompetence.png", "./static/image/personnal/school-records/delete.png",
             "./static/image/personnal/school-records/observer.png", "./static/image/personnal/school-records/pdf.png"
         ]
-    },
-
-    {
-        "type": 1,
-        "title": "memory",
-        "description": "This project aims to learn memory in an educational and fun way.",
-        "collaborators": ["Antoine MARVIN"],
-        "langage": "javascript",
-        "github": "https://github.com/minwolf999/memory.git",
-        "images": ["./static/image/personnal/memory/accueil.png", "./static/image/personnal/memory/current.png"]
-    },
-
-    {
-        "type": 1,
-        "title": "roue-tirage",
-        "description": "This project contain a wheel that selects an image from 8 images.",
-        "collaborators": ["Antoine MARVIN"],
-        "langage": "javascript",
-        "github": "https://github.com/minwolf999/roue-tirage.git",
-        "images": ["./static/image/personnal/roue-tirage/accueil.png"]
     },
 
     {
