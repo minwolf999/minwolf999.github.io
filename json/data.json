@@ -60,13 +60,13 @@
     },
 
     {
-        "type": null,
+        "type": 0,
         "title": "forum",
         "description": "This project consists in creating a web forum that allows : <li>communication between users.</li> <li>associating categories to posts.</li> <li>liking and disliking posts and comments.</li> <li>filtering posts.</li>",
         "collaborators": ["Antoine MARVIN", "Anthony YUNG", "Mathias MARCHETTI", "Gwendal BENARD", "Romann BELMER"],
         "langage": "golang",
         "github": "https://github.com/minwolf999/forum.git",
-        "images": []
+        "images": ["./static/image/school/forum/login.png", "./static/image/school/forum/home.png", "./static/image/school/forum/post.png", "./static/image/school/forum/profil.png"]
     },
 
     {
