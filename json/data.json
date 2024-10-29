@@ -180,5 +180,16 @@
         "langage": "golang, javascript",
         "github": "https://github.com/minwolf999/chat.git",
         "images": ["./static/image/personnal/chat/launch.png", "./static/image/personnal/chat/login.png", "./static/image/personnal/chat/chat.png"]
+    },
+
+    {
+        "type": 1,
+        "title": "PowerPoint Generator",
+        "description": "In this project I have create a python interface to create some PowerPoint.",
+        "collaborators": ["Antoine MARVIN"],
+        "langage": "python, JSON",
+        "github": "https://github.com/minwolf999/powerpoint_generator.git",
+        "images": ["./static/image/personnal/powerpoint_generator/home.png", "./static/image/personnal/powerpoint_generator/addPage.png",
+            "./static/image/personnal/powerpoint_generator/addText.png", "./static/image/personnal/powerpoint_generator/addImage.png"]
     }
 ]
