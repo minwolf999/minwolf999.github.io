@@ -183,7 +183,7 @@
     },
 
     {
-        "type": 1,
+        "type": "image to remake",
         "title": "PowerPoint Generator",
         "description": "In this project I have create a python interface to create some PowerPoint.",
         "collaborators": ["Antoine MARVIN"],
@@ -191,5 +191,16 @@
         "github": "https://github.com/minwolf999/powerpoint_generator.git",
         "images": ["./static/image/personnal/powerpoint_generator/home.png", "./static/image/personnal/powerpoint_generator/addPage.png",
             "./static/image/personnal/powerpoint_generator/addText.png", "./static/image/personnal/powerpoint_generator/addImage.png"]
+    },
+
+    {
+        "type": 1,
+        "title": "File Storage",
+        "description": "A Go-based application that allows users to upload and retrieve files from an SQLite database. Files are stored as binary blobs along with metadata (filename, extension), and can be retrieved and saved to the local filesystem. The program supports user-driven file interactions, offering functionality to either store files with unique identifiers or fetch files by name. This project showcases proficiency in Go, SQLite, and file handling.",
+        "collaborators": ["Antoine MARVIN"],
+        "langage": "golang, sqlite",
+        "github": "https://github.com/minwolf999/File-Storage.git",
+        "images": ["./static/image/personnal/file_storage/starting.png", "./static/image/personnal/file_storage/save.png",
+            "./static/image/personnal/file_storage/getting.png"]
     }
 ]
