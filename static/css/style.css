@@ -13,9 +13,13 @@ h1, h2, h3, h4, h5, h6, title, button {
     font-family: 'Pacifico';
 }
 
+button {
+    transition: 0.25s;
+}
+
 button:hover {
     width: 150px;
-    height: 60px;
+    height: 65px;
 }
 
 .body {
