@@ -155,6 +155,8 @@ h1 {
 
 .popupContact .closePopup {
     width: fit-content;
+    height: fit-content;
+    
     padding: 5px;
     border-radius: 100%;
 
@@ -168,6 +170,11 @@ h1 {
 
     position: absolute;
     right: 10px;
+}
+
+.popupContact .closePopup:hpver {
+    width: fit-content;
+    height: fit-content;
 }
 
 .popupContact a {
@@ -295,13 +302,20 @@ h1 {
 
 .closeBtn {
     position: fixed;
-    
+    width: fit-content;
+    height: fit-content;
+
     border: none;
     border-radius: 100%;
 
     padding: 5px;
 
     cursor: pointer;
+}
+
+.closeBtn:hover {
+    width: fit-content;
+    height: fit-content;
 }
 
 .ExerciceName {
