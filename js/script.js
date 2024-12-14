@@ -1,17 +1,14 @@
 import { CreateElementInMarquee } from "./createElementInMarquee.js"
-import { SetAnimation } from "./setAnimation.js"
-
-SetAnimation()
 
 const Div = [
-    document.getElementById('school'),
-    document.getElementById('personnal')
+    document.getElementById('SchoolProjects'),
+    document.getElementById('PersonnalProjects')
 ]
 
 const datas = await fetch("./json/data.json").then(data => data.json());
 
 datas.reverse();
-datas.forEach(data => {
+datas.forEach((data, index) => {
     CreateElementInMarquee(
         Div[data.type],
         data.title,
@@ -19,6 +16,15 @@ datas.forEach(data => {
         data.collaborators,
         data.langage,
         data.github,
-        data.images
+        data.images,
+        index
     )
 });
+
+const Contact = () => {
+    document.getElementsByClassName("popupContact")[0].style.display = "block"
+}
+
+document.getElementsByName("contact").forEach(elem =>
+    elem.addEventListener("click", Contact)
+)

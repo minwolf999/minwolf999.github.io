@@ -1,4 +1,4 @@
-export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exerciceDescription = '', group = [], langage = '', link = '', images = []) {
+export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exerciceDescription = '', group = [], langage = '', link = '', images = [], index = 0) {
     if (parentDiv === null) {
         return
     }
@@ -6,78 +6,61 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
     const div = document.createElement('div')
     div.className = 'marquee-content-slot'
 
-    const ExerciceLangage = document.createElement('p')
-    ExerciceLangage.textContent = langage
-    ExerciceLangage.className = 'marquee-content-slot-langage'
-    div.appendChild(ExerciceLangage)
-    
-    const ExerciceName = document.createElement('h3')
-    if (exerciceName) {
-        exerciceName = exerciceName.replaceAll('-', ' ').split(' ')
-        exerciceName = exerciceName.map(elem => elem[0].toUpperCase() + elem.substring(1).toLowerCase())
-        exerciceName = exerciceName.join(' ')
+    div.innerHTML = `
+        <div class="marquee-content-div">
+            <h3 class="marquee-content-slot-name">
+                ${exerciceName.replaceAll('-', ' ').split(' ').map(elem => elem[0].toUpperCase() + elem.substring(1).toLowerCase()).join(' ')}
+            </h3>
 
-        ExerciceName.textContent = exerciceName
-    }
-    div.appendChild(ExerciceName)
+            <p class="marquee-content-slot-langage">
+                ${langage}
+            </p>
+        </div>
 
-    const ExerciceDescrition = document.createElement('p')
-    ExerciceDescrition.innerHTML = exerciceDescription
-    div.appendChild(ExerciceDescrition)
+        <p>
+            ${exerciceDescription}
+        </p>
+    `
 
     parentDiv.appendChild(div)
 
-    div.addEventListener('click', () => {
+    div.addEventListener('click', () => {        
         const popupBackground = document.createElement('div')
         popupBackground.className = 'popupBackground'
+        popupBackground.id = index
 
-        const popupBody = document.createElement('div')
-        popupBody.className = 'popupBody'
-        
-        const closeBtn = document.createElement("button");
-        closeBtn.className = "closeBtn";
-        closeBtn.textContent = "X"
-        closeBtn.addEventListener("click", () => popupBackground.remove());
-        popupBody.appendChild(closeBtn)
+        popupBackground.innerHTML =`
+        <div class="popupBody">
+            <div class="popupHeader">
+                <button class="closeBtn" onclick="document.getElementById('${index}').remove()">X</button>
 
-        const LinkToTheGithub = document.createElement('a')
-        LinkToTheGithub.href = link
-        LinkToTheGithub.target = '_blank'
-        LinkToTheGithub.innerHTML = '<img src="./static/image/github_logo.png">'
-        LinkToTheGithub.className = 'githubLink'
-        popupBody.appendChild(LinkToTheGithub)
+                <h3 class="ExerciceName">
+                    ${exerciceName.replaceAll('-', ' ').split(' ').map(elem => elem[0].toUpperCase() + elem.substring(1).toLowerCase()).join(' ')}
+                </h3>
 
-        const Langage = document.createElement('p')
-        Langage.className = 'langage';
-        Langage.textContent = langage;
-        popupBody.appendChild(Langage)
+                <p class="langage">
+                    ${langage}
+                </p>
 
-        const ExerciceName = document.createElement('h3')
-        ExerciceName.textContent = exerciceName
-        popupBody.appendChild(ExerciceName)
+                <a class="githubLink" href="${link}" target="_blank">
+                    <img src="./static/image/github_logo.png">
+                </a>
+            </div>
+                
+            <p>
+                ${exerciceDescription}  
+            </p>
 
-        const ExerciceDescrition = document.createElement('p')
-        ExerciceDescrition.innerHTML = exerciceDescription
-        popupBody.appendChild(ExerciceDescrition)
+            <p>
+                Group members: ${group.map(people => `<li>${people}</li>`).join('')}
+            </p>
 
-        const ExerciceGroup = document.createElement('p')
-        ExerciceGroup.innerHTML = `Group members:
-            ${group.map(people => `<li>${people}</li>`).join('')}
+            <div class="DivImage">
+                ${images.map(image => '<img src="' + image + '">')}
+            </div>
+        </div>
         `
-        popupBody.appendChild(ExerciceGroup)
 
-        const DivImage = document.createElement('div')
-        DivImage.className = 'DivImage'
-
-        images.forEach(image => {
-            const Image = document.createElement('img')
-            Image.src = image
-
-            DivImage.appendChild(Image)
-        })
-        popupBody.appendChild(DivImage)
-
-        popupBackground.appendChild(popupBody)
         document.body.appendChild(popupBackground)
     })
 }

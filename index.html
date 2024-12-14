@@ -3,13 +3,82 @@
     <head>
         <title>PortFolio</title>
         <link rel="stylesheet" href="static/css/style.css">
+        <script src="./js/script.js" type="module" defer></script>
     </head>
-
-    <style id="style"></style>
     
     <body>
         <div class="body">
-            <div class="about-me">
+            <div class="HeaderButton">
+                <button class="AboutMeButton"><b><a href="#AboutMe">About Me</a></b></button>
+                <button class="Contact" name="contact">Contact</button>
+            </div>
+
+            <div class="DivProfilePicture">
+                <img src="https://avatars.githubusercontent.com/u/113699898?v=4" class="ProfilePicture">
+            </div>
+
+            <div class="Name">
+                <h1>Antoine Marvin</h1>
+            </div>
+
+            <div class="Intro">
+                I am a full-stack developer with a back-end appetite.<br>
+                Feel free to take a look at some of my projects on the web portfolio page.
+            </div>
+
+            <div class="DivContactMe">
+                <button class="ContactMe" name="contact">Contact Me</button>
+            </div>
+
+            <div class="AboutMe" id="AboutMe">
+                <h1>ABOUT ME</h1>
+
+                <p>
+                    I’m a passionate junior full-stack developer currently pursuing my studies in software development. While I enjoy the versatility of full-stack work, I have a particular passion for back-end development, where I love solving complex problems, optimizing systems, and creating robust, scalable applications.<br>
+                    <br>
+                    I’m constantly learning and exploring new technologies to expand my skill set. My current stack includes Golang, Javascript, React, Python, Django, C, PHP, Laravel, RUST, SQL. Beyond coding, I enjoy collaborating with others to bring ideas to life and learning from the vibrant developer community.<br>
+                    <br>
+                    I’m eager to kickstart my professional journey and contribute to impactful projects. Let’s build something great together!
+                </p>
+            </div>
+
+            <div class="SchoolProjects">
+                <h1>SCHOOL PROJECTS</h1>
+
+                <div id="SchoolProjects" class="SchoolProjectsDetail"></div>
+            </div>
+
+            <div class="PersonnalProjects">
+                <h1>PERSONNAL PROJECTS</h1>
+
+                <div id="PersonnalProjects" class="PersonnalProjectsDetail"></div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="popupContact" style="display: none;">
+            <div class="div">
+                <button class="closePopup" onclick="document.getElementsByClassName('popupContact')[0].style.display = 'none'">X</button>
+                <p>Mail: <a href="mailto:antoine.marvin@hotmail.fr" class="mail">antoine.marvin@hotmail.fr</a></p>
+                <p>Phone: <a href="tel:+33781763686">0781763686</a></p>
+            </div>
+        </div>
+    </body>
+
+    <footer class="Footer">
+        <a target="_blank" href="https://github.com/minwolf999">
+            <img src="./static/image/github_logo.png" class="Logo Invert" onclick="">
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/antoine-marvin-2bb2b6263">
+            <img src="./static/image/linkedin_logo.png" class="Logo">
+        </a>
+    </footer>
+            
+            <!-- <div class="about-me">
                 <p>
                     Hello, my name is<a href="https://www.github.com/minwolf999" target="_blank">Antoine Marvin.</a><br>
                     I am a full-stack developer.<br>
@@ -35,9 +104,6 @@
             <p><i><b>Personnal projects</b></i></p>
             <div class="marquee" id="marquee">
                 <div class="marquee-content" id="personnal"></div>
-            </div>
-        </div>
+            </div> -->
     </body>
 </html>
-
-<script src="js/script.js" type="module" defer></script>
