@@ -1,6 +1,21 @@
 body {
     background-color: black;
     color: white;
+
+    font-family: 'Send Flowers';
+    font-size: 25px;
+    font-weight: bold;
+
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, title, button {
+    font-family: 'Pacifico';
+}
+
+button:hover {
+    width: 150px;
+    height: 60px;
 }
 
 .body {
@@ -16,6 +31,7 @@ body {
 .AboutMeButton {
     background-color: black;
     width: 129px;
+    height: 55px;
 
     margin-right: 10px;
     padding: 10px;
@@ -32,6 +48,7 @@ body {
 
 .Contact {
     width: 129px;
+    height: 55px;
 
     padding: 10px;
     border-radius: 10px;
@@ -59,17 +76,11 @@ body {
 
     font-size: 40px;
     font-weight: 900;
-
-    background-image: linear-gradient(to right, darkblue, darkblue, brown, brown);
-    color: transparent;
-    background-clip: text;
 }
 
 .Intro {
     max-width: 50%;
     margin: 0 auto;
-
-    font-size: 18px;
 }
 
 .DivContactMe {
@@ -101,44 +112,12 @@ body {
     align-items: center;
 }
 
-.AboutMe h1 {
-    font-size: 45px;
-    font-weight: 900;
-
-    background-image: linear-gradient(to right, darkblue, brown);
-    color: transparent;
-    background-clip: text;
-}
-
 .AboutMe p {
     max-width: 50vw;
     text-align: justify;
 }
 
-.SchoolProjects {
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.SchoolProjects h1 {
-    font-size: 45px;
-    font-weight: 900;
-
-    background-image: linear-gradient(to right, darkblue, brown);
-    color: transparent;
-    background-clip: text;
-}
-
-.PersonnalProjects {
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.PersonnalProjects h1 {
+h1 {
     font-size: 45px;
     font-weight: 900;
 
@@ -214,16 +193,29 @@ body {
     width: 50px;
 }
 
-.SchoolProjectsDetail {
+.SchoolProjects, .PersonnalProjects {
+    margin-top: 150px;
+
     display: flex;
-    max-width: 70%;
-    overflow-x: auto;
+    flex-direction: column;
+
+    align-items: center;
 }
 
-.PersonnalProjectsDetail {
+.SchoolProjectsDetail, .PersonnalProjectsDetail {
     display: flex;
-    max-width: 70%;
+    gap: 25px;
+
+    width: 70vw;
+    height: 55vh;
     overflow-x: auto;
+
+    align-items: center;
+}
+
+.marquee-content-slot:hover {
+    width: 30vw;
+    height: 55vh;
 }
 
 .marquee-content-slot {
@@ -231,27 +223,38 @@ body {
     word-wrap: break-word;
     box-sizing: border-box;
 
+
+    transition: 0.25s;
+
     border: 1px solid white;
     border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
 
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    width: 25vw;
     height: 50vh;
 
+    overflow-y: auto;
+
     cursor: help;
+
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .marquee-content-div {
-    width: 20vw;
-    margin-bottom: 70px;
-}
+    width: 100%;
 
-.marquee-content-slot-name {
-    float: left;
-}
+    padding: 0;
+    margin: 0;
 
-.marquee-content-slot-langage {
-    float: right;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .popupBackground {
@@ -329,4 +332,30 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.technologies {
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DivList {
+    display: flex;
+    gap: 10vw;
+}
+
+.DivList li,
+.DivList h3 {
+    display: flex;
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.DivList li img {
+    width: 50px;
 }

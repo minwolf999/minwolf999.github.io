@@ -34,9 +34,9 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
             <div class="popupHeader">
                 <button class="closeBtn" onclick="document.getElementById('${index}').remove()">X</button>
 
-                <h3 class="ExerciceName">
+                <h1 class="ExerciceName">
                     ${exerciceName.replaceAll('-', ' ').split(' ').map(elem => elem[0].toUpperCase() + elem.substring(1).toLowerCase()).join(' ')}
-                </h3>
+                </h1>
 
                 <p class="langage">
                     ${langage}
@@ -52,7 +52,7 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
             </p>
 
             <p>
-                Group members: ${group.map(people => `<li>${people}</li>`).join('')}
+                Group members: <h5>${group.map(people => `<li>${people}</li>`).join('')}</h5>
             </p>
 
             <div class="DivImage">
