@@ -126,7 +126,8 @@ h1 {
 
 .popupContact .div {
     background: rgba(0, 0, 0, 0.5);
-    width: 50%;
+    width: fit-content;
+    padding: 0 100px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
