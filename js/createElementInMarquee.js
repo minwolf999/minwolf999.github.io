@@ -42,7 +42,7 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
                     ${langage}
                 </p>
 
-                <a class="githubLink" href="${link}" target="_blank">
+                <a class="githubLink Invert" href="${link}" target="_blank">
                     <img src="./static/image/github_logo.png">
                 </a>
             </div>
