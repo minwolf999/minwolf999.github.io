@@ -56,7 +56,7 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
             </p>
 
             <div class="DivImage">
-                ${images.map(image => '<img src="' + image + '">')}
+                ${images.map(image => '<img src="' + image + '">').join('')}
             </div>
         </div>
         `
