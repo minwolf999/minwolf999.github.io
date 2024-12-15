@@ -4,7 +4,7 @@
         "title": "tetris-optimizer",
         "description": "Develop a program that receives only one argument, a path to a text file which will contain a list of tetrominoes and assemble them in order to create the smallest square possible.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/tetris-optimizer.git",
         "images": ["./static/image/school/tetris-optimizer/exemple03.png"]
     },
@@ -14,7 +14,7 @@
         "title": "ascii-art-web",
         "description": "Ascii-art-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, ascii-art.",
         "collaborators": ["Mathias MARCHETTI", "Philippe LECROSNIER", "Antoine MARVIN", "Anthony YUNG", "Romain LEVASSEUR", "Cyril RAMANANJAONA"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/ascii-art-web.git",
         "images": ["./static/image/school/ascii-art-web/terminal1.png", "./static/image/school/ascii-art-web/terminal2.png", "./static/image/school/ascii-art-web/site.png"]
     },
@@ -24,7 +24,7 @@
         "title": "groupie-tracker",
         "description": "Groupie Trackers consists on receiving a given API and manipulate the data contained in it, in order to create a site, displaying the information.",
         "collaborators": ["Simon LECUREUX", "Philippe LECROSNIER", "Antoine MARVIN", "Romain LEVASSEUR"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/groupie-tracker.git",
         "images": ["./static/image/school/groupie-tracker/loading.png", "./static/image/school/groupie-tracker/started.png", "./static/image/school/groupie-tracker/accueil.png"]
     },
@@ -34,7 +34,7 @@
         "title": "net-cat",
         "description": "This project consists on recreating the NetCat in a Server-Client Architecture that can run in a server mode on a specified port listening for incoming connections, and it can be used in client mode, trying to connect to a specified port and transmitting information to the server.",
         "collaborators": ["Cyril RAMANANJAONA", "Philippe LECROSNIER", "Antoine MARVIN"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/net-cat.git",
         "images": ["./static/image/school/net-cat/launch.png", "./static/image/school/net-cat/connection.png", "./static/image/school/net-cat/chat.png"]
     },
@@ -44,7 +44,7 @@
         "title": "lem-in",
         "description": "This project is meant to make you code a digital version of an ant farm.",
         "collaborators": ["Mathias MARCHETTI", "Romann BELMER", "Antoine MARVIN"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/lem-in.git",
         "images": ["./static/image/school/lem-in/exemple02.png"]
     },
@@ -64,7 +64,7 @@
         "title": "forum",
         "description": "This project consists in creating a web forum that allows : <li>communication between users.</li> <li>associating categories to posts.</li> <li>liking and disliking posts and comments.</li> <li>filtering posts.</li>",
         "collaborators": ["Antoine MARVIN", "Anthony YUNG", "Mathias MARCHETTI", "Gwendal BENARD", "Romann BELMER"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/forum.git",
         "images": ["./static/image/school/forum/login.png", "./static/image/school/forum/home.png", "./static/image/school/forum/post.png", "./static/image/school/forum/profil.png"]
     },
@@ -74,7 +74,7 @@
         "title": "make-your-game",
         "description": "This project involves creating your own game without using canvas inspired by one of these: <li>Bomberman</li> <li>Flipper/ Pinball</li> <li>Space Invaders</li> <li>Donkey Kong</li> <li>Brick Breaker/ Arkanoid</li> <li>Pac-Man</li> <li>Super Mario</li> <li>Tetris</li> <li>Duck Hunt</li>",
         "collaborators": ["Simon LECUREUX", "Romain LEVASSEUR", "Antoine MARVIN"],
-        "langage": "javascript",
+        "langage": "Javascript",
         "github": "https://github.com/minwolf999/make-your-game.git",
         "images": ["./static/image/school/make-your-game/starting.png", "./static/image/school/make-your-game/new-wave.png", "./static/image/school/make-your-game/game-over.png"]
     },
@@ -84,7 +84,7 @@
         "title": "real-time-forum",
         "description": "This project consist on remake your forum with javascript. You can only have 1 html page and you need to add a chat in real-time",
         "collaborators": ["Antoine MARVIN", "?"],
-        "langage": "golang, javascript",
+        "langage": "Golang, Javascript",
         "github": "https://github.com/minwolf999/real-time-forum.git",
         "images": ["./static/image/school/real-time-forum/login.png", "./static/image/school/real-time-forum/accueil.png", "./static/image/school/real-time-forum/chat.png"]
     },
@@ -94,7 +94,7 @@
         "title": "mister-quizz",
         "description": "You will have to continue to build a quiz game website that is already in development.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "PHP laravel",
+        "langage": "PHP Laravel",
         "github": "https://github.com/minwolf999/mister-quizz.git",
         "images": ["./static/image/school/mister-quizz/accueil.png", "./static/image/school/mister-quizz/quizz.png"]
     },
@@ -104,7 +104,7 @@
         "title": "netfix",
         "description": "In this project you will help create a website in which all of this and more will be possible. This website is still in the creation process, so not all features are available. You are going to implement some of the missing features",
         "collaborators": ["Antoine MARVIN", "Mathias MARCHETTI"],
-        "langage": "python django",
+        "langage": "Python Django",
         "github": "https://github.com/minwolf999/netfix.git",
         "images": ["./static/image/school/netfix/accueil.png", "./static/image/school/netfix/request.png"]
     },
@@ -143,7 +143,7 @@
         "title": "tirage",
         "description": "This project displays a random image contained in a folder. The user can also add is own image.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "PHP, javascript",
+        "langage": "PHP, Javascript",
         "github": "https://github.com/minwolf999/tirage.git",
         "images": ["./static/image/personnal/tirage/accueil.png", "./static/image/personnal/tirage/tirer.png"]
     },
@@ -153,7 +153,7 @@
         "title": "school-records",
         "description": "This project aims to help nursery school teachers to prepare their school records digitally.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/school-records.git",
         "images": [
             "./static/image/personnal/school-records/accueil.png", "./static/image/personnal/school-records/logged.png", "./static/image/personnal/school-records/saisir.png",
@@ -167,7 +167,7 @@
         "title": "Encryption",
         "description": "Encryption is a program for encrypting and decrypting an entire folder.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "golang",
+        "langage": "Golang",
         "github": "https://github.com/minwolf999/Encryption.git",
         "images": ["static/image/personnal/Encryption/crypt.png", "static/image/personnal/Encryption/decrypt.png"]
     },
@@ -177,7 +177,7 @@
         "title": "chat",
         "description": "In this project I have create a chat with a go server and a websocket connection",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "golang, javascript",
+        "langage": "Golang, Javascript",
         "github": "https://github.com/minwolf999/chat.git",
         "images": ["./static/image/personnal/chat/launch.png", "./static/image/personnal/chat/login.png", "./static/image/personnal/chat/chat.png"]
     },
@@ -187,7 +187,7 @@
         "title": "PowerPoint Generator",
         "description": "In this project I have create a python interface to create some PowerPoint.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "python, JSON",
+        "langage": "Python, JSON",
         "github": "https://github.com/minwolf999/powerpoint_generator.git",
         "images": ["./static/image/personnal/powerpoint_generator/home.png", "./static/image/personnal/powerpoint_generator/addPage.png",
             "./static/image/personnal/powerpoint_generator/addText.png", "./static/image/personnal/powerpoint_generator/addImage.png"]
@@ -198,7 +198,7 @@
         "title": "File Storage",
         "description": "A Go-based application that allows users to upload and retrieve files from an SQLite database. Files are stored as binary blobs along with metadata (filename, extension), and can be retrieved and saved to the local filesystem. The program supports user-driven file interactions, offering functionality to either store files with unique identifiers or fetch files by name. This project showcases proficiency in Go, SQLite, and file handling.",
         "collaborators": ["Antoine MARVIN"],
-        "langage": "golang, sqlite",
+        "langage": "Golang, SQLite",
         "github": "https://github.com/minwolf999/File-Storage.git",
         "images": ["./static/image/personnal/file_storage/starting.png", "./static/image/personnal/file_storage/save.png",
             "./static/image/personnal/file_storage/getting.png"]
