@@ -340,6 +340,14 @@ li {
     gap: 10vw;
 }
 
+.DivList li div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
 .DivList li,
 .DivList h3 {
     display: flex;
@@ -351,6 +359,7 @@ li {
 
 .DivList li img {
     width: 50px;
+    margin: 0;
 }
 
 .stars {
