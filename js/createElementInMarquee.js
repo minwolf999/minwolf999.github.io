@@ -18,7 +18,7 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
         </div>
 
         <p>
-            ${exerciceDescription}
+            ${exerciceDescription.split("<h")[0]}
         </p>
     `
 
@@ -47,13 +47,15 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
                 </a>
             </div>
                 
-            <p>
-                ${exerciceDescription}  
-            </p>
+            <div class="description">
+                <p>
+                    ${exerciceDescription}  
+                </p>
+            </div>
 
-            <p>
+            <div class="GroupMembers">
                 Group members: <h5>${group.map(people => `<li>${people}</li>`).join('')}</h5>
-            </p>
+            </div>
 
             <div class="DivImage">
                 ${images.map(image => '<img src="' + image + '">').join('')}
