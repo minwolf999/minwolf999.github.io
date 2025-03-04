@@ -129,7 +129,6 @@ button:hover {
 h1 {
     font-size: 45px;
     font-weight: 900;
-    background-image: linear-gradient(to right, darkblue, brown);
     color: transparent;
     background-clip: text;
 }
@@ -230,6 +229,13 @@ h1 {
     align-items: center;
 }
 
+.font_titillium {
+  line-height: 30px;
+  font-family: 'Titillium';
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .marquee-content-slot:hover {
     width: 35vw;
     height: 98%;
@@ -276,6 +282,10 @@ h1 {
 }
 
 .popupBody {
+  font-family: 'Titillium';
+  line-height: 40px;
+  font-weight: 400;
+  
   background: rgba(50, 50, 50, 0.8);
     color: white;
     width: 65%;
@@ -319,6 +329,8 @@ h1 {
 
 .ExerciceName {
     margin: auto;
+    background-image: linear-gradient(to right, blue, brown);
+  line-height: normal;
 }
 
 .langage {

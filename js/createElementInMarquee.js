@@ -17,9 +17,9 @@ export function CreateElementInMarquee(parentDiv = null, exerciceName = '', exer
             </p>
         </div>
 
-        <p>
+        <div class="font_titillium">
             ${exerciceDescription.split("<h")[0]}
-        </p>
+        </div>
     `
 
     parentDiv.appendChild(div)
