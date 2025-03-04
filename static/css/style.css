@@ -283,7 +283,7 @@ h1 {
 
 .popupBody {
   font-family: 'Titillium';
-  line-height: 40px;
+  line-height: 30px;
   font-weight: 400;
   
   background: rgba(50, 50, 50, 0.8);
@@ -348,6 +348,7 @@ h1 {
 
 .description {
   text-align: start;
+  font-size: 18px;
 }
 
 img {
