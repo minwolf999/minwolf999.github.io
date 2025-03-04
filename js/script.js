@@ -24,3 +24,11 @@ datas.forEach((data, index) => {
         index
     )
 });
+
+const Contact = () => {
+    document.getElementsByClassName("popupContact")[0].style.display = "block"
+}
+
+document.getElementsByName("contact").forEach(elem =>
+    elem.addEventListener("click", Contact)
+)
