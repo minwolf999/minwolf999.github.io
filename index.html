@@ -68,9 +68,10 @@
 
         <div class="body">
             <div class="HeaderButton">
-                <button class="AboutMeButton"><b><a href="#AboutMe">About Me</a></b></button>
-                <button class="AboutMeButton"><b><a href="#Technologies">Technologies</a></b></button>
-                <button class="AboutMeButton"><b><a href="#Projects">Projects</a></b></button>
+                <a href="#AboutMe"><button class="AboutMeButton"><b>About Me</b></button></a>
+                <a href="#Technologies"><button class="AboutMeButton"><b>Technologies</b></button></a>
+                <a href="#Projects"><button class="AboutMeButton"><b>Projects</b></button></a>
+                <a href="cv.pdf" target="_blank" class="AboutMeA"><button class="AboutMeButton"><b>CV</b></button></a>
                 <button class="Contact" name="contact">Contact</button>
             </div>
 
@@ -235,8 +236,10 @@
         <div class="popupContact" style="display: none;">
             <div class="div">
                 <button class="closePopup" onclick="document.getElementsByClassName('popupContact')[0].style.display = 'none'">X</button>
-                <p>Mail: <a href="mailto:antoine.marvin@hotmail.fr" class="mail">antoine.marvin@hotmail.fr</a></p>
-                <p>Phone: <a href="tel:+33781763686">0781763686</a></p>
+                <p class="title">Contact</p>
+
+                <a href="mailto:antoine.marvin@hotmail.fr"><button class="AboutMeButton">antoine.marvin@hotmail.fr</button></a>
+                <a href="tel:+33781763686"><button class="AboutMeButton">0781763686</button></a>
             </div>
         </div>
     </body>
