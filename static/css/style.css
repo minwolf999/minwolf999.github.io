@@ -71,15 +71,16 @@ button:hover {
   to { transform: scale(1) }
 }
 
+@keyframes margin_top_reveal {
+  from { margin-top: 100% }
+  to { margin-top: 0 }
+}
+
 .ProfilePicture {
   border-radius: 50%;
   width: 20vw;
 }
 
-@keyframes margin_top_reveal {
-  from { margin-top: 100% }
-  to { margin-top: 0 }
-}
 .Name {
     display: flex;
     justify-content: center;
@@ -361,6 +362,15 @@ img {
 .DivList ul li {
   text-align: center;
   list-style-position: inside;
+}
+
+.DivList ul li div {
+  transition: transform 0.3s ease-out;
+}
+
+.DivList ul li div:hover {
+  transform: scale(1.2);
+  margin: 10px 0;
 }
 
 .GroupMembers h5 li {
