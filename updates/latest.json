@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "notes": "Auto-generated release",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://minwolf999.github.io/updates/CrochPlan_0.1.0_x64_en-US.msi"
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": "https://minwolf999.github.io/updates/CrochPlan_0.1.0_amd64.AppImage"
+    },
+    "linux-deb-x86_64": {
+      "signature": "",
+      "url": "https://minwolf999.github.io/updates/CrochPlan_0.1.0_amd64.deb"
+    },
+    "linux-rpm-x86_64": {
+      "signature": "",
+      "url": "https://minwolf999.github.io/updates/CrochPlan-0.1.0-1.x86_64.rpm"
+    }
+  }
+}
