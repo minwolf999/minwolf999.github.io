@@ -1,23 +1,23 @@
 {
-  "version": "0.1.3",
-  "notes": "Release v0.1.3",
-  "pub_date": "2026-07-10T11:05:02Z",
+  "version": "0.1.4",
+  "notes": "Release v0.1.4",
+  "pub_date": "2026-07-10T11:32:10Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWG9CL0pjTFVJMHFNckkzb0U5S1RLMVZjb05WQjcrbS8yZEJGSmdyWHEycnlqUnAxREN5V0VNYktqY0tUWnpTNTBIdktTU0NqQ1NJeXI5TUtFNnR5ZndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgxMjgxCWZpbGU6Q3JvY2jigJlQbGFuXzAuMS4zX2FtZDY0LkFwcEltYWdlCjVXYXVyVVpEQ3Jhbk5PWkNWQmNxVEY2Sks0K05qckNMb2RPaExjZE5FK01lQ3FFR2dRQmsvUTF2OE02bURKSUM5czFQMXpOcWpLMHpHVGpHSUowbEFBPT0K",
-      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHVFTlZpa2hCeHR4TE5mNDFFTHFiNkhJUCttMGI2RzBQQWRLVEhWY053REtncXVsR2tkR0ZWQ29UTnJ1K0gxNzlSYk5LMEg4bDFGb255WjQrWVNrZWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgyNTk3CWZpbGU6Q3JvY2jigJlQbGFuXzAuMS40X2FtZDY0LkFwcEltYWdlCktkd3FBbkM1cmxaTnJnd1VNbWk1SVpyL3g5YWdadFRMTFBtRkJrNFY4cFBWbjkzTlpYMi9ab3lxK09qSUV4cWQ5eDFxOHY3OWMzMXJlTlBLU3Q3dUJBPT0K",
+      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.4_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHM3QkdnSWJFZDdBTkpFWWJzalo2ekpPOFFCTDQrNk1XbldWU2FTZEdQMzhXNkhuS1RVQk1hUHR1cmJ5UmNzdkNEOGZHdmliY3hTSFlsY0xacURsL3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgxNDgxCWZpbGU6Q3JvY2jigJlQbGFuXzAuMS4zX3g2NF9lbi1VUy5tc2kKRWRQRlRoMzBOdVp3Z0VsVXFqclROVWQwMlByY09URlExczlqUnpzemhOMnJaRFllaHlBUE5xaVd1TjZrTzVZMjZYNUxQbGJNYVExR2ptZ1J3aytNQkE9PQo=",
-      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.3_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWGt2QUxmYkg5K1dEQ3d0RXgzNkRmZGdZRzZEZnNjdFM3c1YrZXduYjg1NTBIRWlRV1JHeDhxQXRNbnVRdTg1UkhqU1BEc1lPRElFMTBIUm9YRFJvOXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgzMTEwCWZpbGU6Q3JvY2jigJlQbGFuXzAuMS40X3g2NF9lbi1VUy5tc2kKSkE1WDRZc0lPSm1lMnQvWWgydXBjTWovamRUcHR0eFV2NVFKTE5lS3pZaGxUMEZFTDhucmwrUTV3bnRJV0hZRFNhQW9yU3dOQTVjVnNNMytGRXVHQnc9PQo=",
+      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.4_x64_en-US.msi"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHAwUlNQTzNYZVhmckRqWStPR2cyVEYxMGF2dzdLSW41VzlCbWdsLy9SZnBydUpYdDlyZ0twTXphRWxsZjUzTnIvK1IwTG9QV0owN0xEampUR0xIclF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgxMzkzCWZpbGU6Q3JvY2jigJlQbGFuLmFwcC50YXIuZ3oKcy9SVHh5Y0Rma2orYTdKUzJHTWV5aXFTS0t5TWRYYUM0bThFaElvR1ZtOHh6KzhvcURmRmNzQklVbERqK2hwTlZQVTBaQmRUMG9Ic2MxZTR2aEJpRGc9PQo=",
-      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.3_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWGt2UUFLZ3g4SnloczVDYitEOHBrTW9TNVNXZFZPOXlJYnJSbWZiclMwZEUwbUo5V0EwMXBPVGNwL29YbitkY3JLOForbklGRmtiZkM3dWRtNldTNndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgyNjczCWZpbGU6Q3JvY2jigJlQbGFuLmFwcC50YXIuZ3oKL1Z4Rms0cWpIaUJsU2JyUSt3ZTZWSm02end2bjc5QkRiQ2Q4V1dpVWFmRktOWEZPVGIyV2tRMnRWWTZ3VUcxeGttSjhoZHFRMmFtWm1EenFSVktmQUE9PQo=",
+      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.4_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHAwUlNQTzNYZVhmckRqWStPR2cyVEYxMGF2dzdLSW41VzlCbWdsLy9SZnBydUpYdDlyZ0twTXphRWxsZjUzTnIvK1IwTG9QV0owN0xEampUR0xIclF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgxMzkzCWZpbGU6Q3JvY2jigJlQbGFuLmFwcC50YXIuZ3oKcy9SVHh5Y0Rma2orYTdKUzJHTWV5aXFTS0t5TWRYYUM0bThFaElvR1ZtOHh6KzhvcURmRmNzQklVbERqK2hwTlZQVTBaQmRUMG9Ic2MxZTR2aEJpRGc9PQo=",
-      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.3_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWGt2UUFLZ3g4SnloczVDYitEOHBrTW9TNVNXZFZPOXlJYnJSbWZiclMwZEUwbUo5V0EwMXBPVGNwL29YbitkY3JLOForbklGRmtiZkM3dWRtNldTNndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjgyNjczCWZpbGU6Q3JvY2jigJlQbGFuLmFwcC50YXIuZ3oKL1Z4Rms0cWpIaUJsU2JyUSt3ZTZWSm02end2bjc5QkRiQ2Q4V1dpVWFmRktOWEZPVGIyV2tRMnRWWTZ3VUcxeGttSjhoZHFRMmFtWm1EenFSVktmQUE9PQo=",
+      "url": "https://minwolf999.github.io/updates/Croch'Plan_0.1.4_universal.app.tar.gz"
     }
   }
 }
